@@ -8,10 +8,7 @@ import { NotFound } from './pages/NotFound/NotFound.jsx';
 import { About } from './pages/About/About.jsx';
 
 
-export const App = () => {
-
-
-  const router = createBrowserRouter([
+ const router = createBrowserRouter([
     
     {
     path: '/',
@@ -27,9 +24,8 @@ export const App = () => {
   ]);
 
 
+export default function App() {
 
-
-  return (
-    <RouterProvider router={router} />
-  )
+  return <RouterProvider router={router} />;
+  
 }

@@ -7,7 +7,7 @@ export default function MainLayout() {
   return (
     <>
       <Navbar />
-      <main className="flex-1">
+      <main>
         <Outlet />
       </main>
       <Footer />
